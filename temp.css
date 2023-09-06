@@ -1,0 +1,81 @@
+/* Style the body and set a background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+  }
+  
+  /* Style the main container */
+  .main {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the input field and select box */
+  .degree, .type {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], select {
+    width: 350px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style the button */
+  #but {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #but:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the result container */
+  .result {
+    text-align: center;
+}
+
+/* Style the result text */
+#result {
+    margin-left: 620px;
+    text-align: center;
+      border-bottom: 1.2px solid grey;
+      height: 30px;
+      width: 130px;
+    font-size: 24px;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Add some spacing */
+  h3 {
+    margin: 10px 0;
+  }
+  
+  /* Center the button */
+  .btn {
+    text-align: center;
+  }
+  
